@@ -31,7 +31,7 @@ export default function Header() {
                 profile.avatar.url ||
                 'https://api.adorable.io/avatars/50/abott@adorable.png'
               }
-              alt="Charles Eduardo"
+              alt={profile.name}
             />
           </Profile>
         </aside>
